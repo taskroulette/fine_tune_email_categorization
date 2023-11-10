@@ -1,0 +1,15 @@
+file_config:
+  generated_filename: "02_fine_tune_dataset_generator.py"
+  start_marker: "# CLASSES AND LIST UNDER HERE"
+  end_marker: "# END OF CLASSES AND LIST"
+
+gpt_config:
+  model: "gpt-4"
+  how_many_examples: 5
+  prompt: "Please generate a list named 'email_categories' with exactly 5 categories. Also classify the email as Internal or external based on if the email address ends with @askaiden.com"
+
+prompt_messages:
+  setup_pydantic: "Your task is to create python pydantic classes for specific use cases.\nYou will be given a prompt and You will create the pydantic classes which handles the parameters for the prompt. then generate a python list of 10 examples related to the prompt. return the pydantic classes and the list in a single python code block.\n\nHere is an example:\n\nprompt:\nGenerate an example album, with an artist and a list of songs. \\\nUsing the movie {movie_name} as inspiration.\\\n\npydantic models and list\nclass Song(BaseModel):\n    \"\"\"Data model for a song.\"\"\"\n\n    title: str\n    length_seconds: int\n\n\nclass Album(BaseModel):\n    \"\"\"Data model for an album.\"\"\"\n\n    name: str\n    artist: str\n    songs: List[Song]\n\n# has to be a pure python list only with strings as elements\nmovie_names = [\n    \"The Shining\",\n    \"The Departed\",\n    \"Titanic\",\n    \"Goodfellas\",\n    \"Pretty Woman\",\n    \"Home Alone\",\n    \"Caged Fury\",\n    \"Edward Scissorhands\",\n    \"Total Recall\",\n    \"Ghost\",\n    \"Tremors\",\n    \"RoboCop\",\n    \"Rocky V\",\n]\n\ndo NOT add anything other than the classes and the list ( as a python list). Don't use array type unless absolutely necessary. return the response as a single code block in between ```python and ```"
+
+run_requests:
+  prompt_template_str: "Generate 30 unique mock email contents with diverse sender names and email addresses. For each email, randomly select a topic from the provided categories in {email_categories} and craft an email body related to that category. Ensure a 50/50 split between internal (emails ending with @askaiden.com) and external emails. Each email should be unique in terms of sender information, subject line, and content. No sender name, email address, or email body should be repeated. The subject lines should be indicative of the category and the content should discuss a specific issue, strategy, or question relevant to the chosen category. Please diversify the contents to cover a wide range of topics and avoid repetition."

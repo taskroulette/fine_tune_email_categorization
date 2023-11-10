@@ -1,0 +1,5 @@
+python-dotenv
+email_validator
+openai==0.28.0
+llama-index==0.8.41
+pyyaml
