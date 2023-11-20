@@ -1,0 +1,460 @@
+
+
+////
+
+
+EMAIL 1 - category: BILLING
+Persona: to Will, CEO of startup; from Xochi Cordova (chief of staff)
+
+Sender name: Xochi Cordova
+Sender email: xochi@askaiden.com
+Date: 11/11/2023
+Content: 
+
+Hi Will,
+I’m following up regarding October’s invoice 0001-AA payable to RIPLING INC for “monthly payroll services” totaling $1,500.86. When you have a moment, please provide your written approval by replying to this email so we’re able to finalize their payment by EOW.
+
+Thanks!
+Xochi
+
+////
+
+EMAIL 2 - category: TRAINING
+Persona: to Will, CEO of startup; email from Rebecca Alvarado, HR 
+
+Sender name: Rebecca Alvarado
+Sender email: becca@askaiden.com
+Date: 11/13/2023
+Content: 
+
+REMINDER TO ALL EMPLOYEES
+
+As part of our ongoing commitment to diversity and inclusion in the workplace, we are implementing mandatory Unconscious Bias Training for all Ask Aiden employees.
+
+You will receive an email from our internal training platform containing details on how to access the training modules. Follow the provided instructions to log in and complete the training no later than Friday, November 10, 2023.
+
+If you have already completed the training, thank you for your prompt attention to this matter. If not, please take a moment to log in to the training platform and complete the modules as soon as possible.
+
+We appreciate your cooperation in making our workplace a more welcoming and respectful environment for everyone!
+
+Best,
+Rebecca Alvarado
+Ask Aiden HR
+
+////
+
+EMAIL 3 - category: MARKETING
+Persona: to Will, CEO of startup; email from LinkedIn Promotions Team
+
+Sender name: Franklin Jonas
+Sender email: fjonas@linkedin.com
+Date: 12/3/2023
+Content: 
+
+Hi Will,
+Thanks for being a valued LinkedIn member. I'd like to offer you another one-month free trial of LinkedIn Premium.
+
+With Premium, you’ll have access to the following benefits:
+LinkedIn Learning Courses so you can sharpen your skills
+InMail Messaging so you can contact anyone, even if you’re not connected.
+Who's Viewed Your Profile, to see everyone who viewed your profile over the last 90 days.
+Competitive Insights on industry peers or other companies of interest.
+
+Reply to this email to reactivate your free trial today.
+
+Sincerely,
+Franklin from LinkedIn Premium
+
+////
+
+EMAIL 4 - category: LEGAL
+Persona: to Will, CEO of startup; email from Vanessa Serna, Legal Director
+
+Sender name: Vanessa Serna
+Sender email: vserna@askaiden.com
+Date: 11/6/2023
+Content: 
+
+LEGAL HOLD NOTICE
+
+Dear Will,
+This email serves as a Legal Hold Notice regarding the preservation of relevant documents and information. 
+
+Ask Aiden is currently under a legal obligation to preserve all records and materials related to the upcoming ADMIN 101 acquisition. This includes, but is not limited to: emails, documents, electronic files, and any other records that may be relevant to the matter.
+
+This Legal Hold is effective immediately and will remain in place until further notice. You will be informed when the Legal Hold is lifted.
+
+If you have any questions or require clarification regarding the Legal Hold, please contact me directly.
+
+Thank you,
+Vanessa Serna
+Director of Legal, Ask Aiden
+
+
+////
+
+
+EMAIL 5 - category: FINANCE
+Persona: to Will, CEO of startup; email from Nick Jones, Head of Finance
+
+Sender name: Nick Jones
+Sender email: NJones@askaiden.com
+Date: 11/1/2023
+Content: 
+
+Hi Will,
+Thank you for taking the time to discuss the upcoming fiscal year during our recent meeting. 
+
+As we discussed, the Finance team is in the process of finalizing our budget for the next fiscal year. To ensure accuracy and alignment with our strategic goals, we kindly request your input on the updated headcount projections for 2024 by next Friday, November 17th.
+
+If you require any additional information, please do not hesitate to reach out.
+
+Best,
+Nick Jones
+Head of Finance, Ask Aiden
+
+////
+
+EMAIL 6 - category: OPERATIONS
+Persona: to Will, CEO of startup; email from Xochi Cordova, Chief of Staff
+
+Sender name: Xochi Cordova
+Sender email: xochi@askaiden.com
+Date: 11/9/2023
+Content: 
+
+Office Closure Reminder - Weekend Construction
+
+Hi everyone!
+I wanted to remind everyone that our offices will be closed over the upcoming weekend due to scheduled construction activities. 
+
+During this period, all access to the office building will be restricted, and we kindly ask everyone to plan accordingly to avoid delaying our office refresh.
+
+If you have any questions or concerns regarding the closure, please feel free to reach out to me directly.
+
+We appreciate your understanding and cooperation as we spruce up our offices!
+
+Best,
+Xochi
+Chief of Staff
+
+////
+
+
+EMAIL 7 - category: CUSTOMER SERVICE
+Persona: to Will, CEO of startup; email from Amazon.com
+
+Sender name: Amazon.com 
+Sender email: donotreply@amazon.com
+Date: 11/11/2023
+Content: 
+
+Did your recent Amazon order meet your expectations? Review it on Amazon
+
+Your opinion matters!
+
+Thank you for your recent order of “Apple 2020 MacBook Air Laptop M1 Chip, 13” Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Gold” from Seller APPLE. APPLE requests you to share your experience for your recent order with other Amazon shoppers. Please take a moment to review your recent Amazon purchase.
+
+Rate this item
+1 star
+2 stars
+3 stars
+4 stars
+5 stars
+
+
+Rate your experience with seller
+1 star
+2 stars
+3 stars
+4 stars
+5 stars
+
+////
+
+EMAIL 8 - category: BUSINESS DEVELOPMENT
+Persona: to Will, CEO of startup; email from Ryan Sullivan, Eng Director at Meta
+
+Sender name: Ryan Sullivan
+Sender email: rsullivan@meta.com
+Date: 12/3/23
+Content: 
+
+Hi Will,
+I hope this message finds you well. I wanted to follow up on the proposal we sent regarding a potential collaboration between Ask Aiden and Meta’s productivity tools team. We are excited about the prospect of working with you and would love to set up time to discuss potential next steps.
+Looking forward to connecting with you soon.
+
+Cheers!
+Ryan Sullivan
+Senior Director of Engineering
+Productivity Tooling @ Meta
+
+
+////
+
+EMAIL 9 - category: ANALYTICS
+Persona: to Will, CEO of startup; email from Emma Thompson, Director of Analytics
+
+Sender name: Emma Thompson
+Sender email: emma@askaiden.com
+Date: 12/7/23
+Content: 
+
+Hi Will,
+Hope you’ve been well. As requested, I’ve attached the updated analytics report for the month of October 2023. This report covers key metrics, trends, and insights related to active daily users. 
+If you have any questions or would like further clarification on any data points, feel free to reach out. I’m happy to schedule a call if you’d like to discuss further.
+Best,
+Emma
+Director of Analytics, Ask Aiden
+
+////
+
+EMAIL 10 - category: HR
+Persona: to Will, CEO of startup; email from Rebecca Alvarado, HR 
+
+Sender name: Rebecca Alvarado
+Sender email: becca@askaiden.com
+Date: 11/3/2023
+Content: 
+
+REMINDER: PERFORMANCE REVIEWS DUE FRIDAY NOVEMBER 10TH
+
+As a friendly reminder, the deadline for submitting your self-review and upward (manager) review is quickly approaching! 
+
+Performance Review Deadline: November 10th, 2023 by 5PM PT
+
+If you have already submitted your self-review and manager review, please disregard this email. If not, please take a moment to finalize your self-assessment as soon as possible. 
+
+Best,
+Rebecca Alvarado
+Ask Aiden, HR
+
+////
+
+EMAIL 11 - category: IT
+Persona: to Will, CEO of startup; email from Mia Sullivan, IT Support Technician
+
+Sender name: Mia Sullivan
+Sender email: mias@askaiden.com
+Date: 11/14/2023
+Content: 
+
+Planned System Maintenance - NOVEMBER 15TH FROM 11:30PM ET - NOVEMBER 16TH 7:30AM ET
+
+
+As a reminder, we have planned system maintenance scheduled this evening beginning at 11:30PM ET, ending tomorrow November 16th at 7:30AM ET. During this period, Slack and Rippling time management will be temporarily unavailable. We appreciate your understanding.
+
+If you have any urgent concerns, please contact our IT support team via email at IT@askaiden.com.
+
+Thank you for your cooperation.
+
+Mia Sullivan
+IT Support Technician, Ask Aiden
+
+////
+
+EMAIL 12 - category: Engineering or Product (Launch)
+Persona: to Will, CEO of startup; email from Avery Rodriguez, Engineering Director
+
+Sender name: Avery Rodriguez
+Sender email: arod@askaiden.com
+Date: 11/7/2023
+Content: 
+
+Pre-read for upcoming AI Leadership Tech Review 
+
+Hi Will,
+Please see the attached pre-read for next Thursday’s AI Tech Review. The focus of our discussion will be on addressing high-priority escalations critical for meeting our January 2024 product launch deadline.
+
+Additionally, I’ve included a one-pager that outlines our resource requests and highlights P0 roadblocks we require your assistance with. 
+
+Looking forward to chatting on Thursday, but please don’t hesitate to reach out if you have any questions before then.
+
+Thanks!
+-Avery
+Engineering Director, UX Design - Ask Aiden
+
+
+
+////
+
+EMAIL 13 - category: TRAINING
+Persona: to Will, CEO of startup; email from Vanessa Serna, Legal Director
+
+Sender name: Vanessa Serna
+Sender email: vserna@askaiden.com
+Date: 11/13/2023
+Content: 
+
+2023 MANDATORY COMPLIANCE TRAINING
+
+Hi Will -
+We are kicking off our annual compliance training! In our commitment to ensuring that all employees are informed and compliant with local laws and regulations, we kindly request that everyone completes this training no later than November 30, 2023.
+
+The training will cover three primary focus areas:
+Anti-discrimination laws
+Workplace safety
+Ethics training
+
+By the end of the day (EOD), all employees will receive a personalized link containing all the necessary information to complete the training promptly. If you do not receive the link by EOD or have any questions, please feel free to contact me directly.
+
+Thank you for your commitment to fostering a safe work environment. We appreciate your cooperation!
+
+Best,
+Vanessa Serna
+Legal Director, Ask Aiden
+
+
+////
+
+EMAIL 14 - category: FINANCE
+Persona: to Will, CEO of startup; email from Charles Schwab
+
+Sender name: Schwab Alerts
+Sender email: donotreply-comm@schwab.com
+Date: 11/5/2023
+Content: 
+
+	Transfer of Funds Request
+
+We have received your request for transfer of funds in the amount of $5,670 from your Schwab Brokerage account ending in 001 to your account at JPMORGAN CHASE BANK, NA ending in 451. You may view additional details for your completed transfers on the Account History page on schwab.com.
+
+If you believe this information to be incorrect please contact a Schwab representative immediately or for questions, call 800-435-4000.
+
+If you access your account(s) through www.schwaballiance.com, please contact your Investment Advisor or call your Schwab Alliance Service Team at 800-515-2157.
+
+
+////
+
+EMAIL 15 - category: BILLING
+Persona: to Will, CEO of startup; email from Rippling (Vendor)
+
+Sender name: Rippling Billing
+Sender email: no-reply@rippling.com
+Date: 11/15/2023
+Content: 
+
+[Action Required] Monthly timesheet pending approval
+
+Hi Will, 
+We require your prompt action to complete the payment process for Xochitl Cordova, Chief of Staff. Kindly take a moment to review the submitted hours, ensuring accuracy and completeness.
+
+If you have any questions or if adjustments are necessary, please communicate directly with Xochitl Cordova and request her to amend her hours accordingly.
+
+Your timely approval is crucial for accurate payroll processing and compliance. We appreciate your prompt attention to this matter.
+
+The Rippling Team
+
+////
+
+EMAIL 16 - category: PUBLIC RELATIONS
+Persona: to Will, CEO of startup; John Jackson @ TechCrunch
+
+Sender name: John Jackson
+Sender email: jjackson@techcrunch.com 
+Date: 11/05/2023
+Content: 
+
+Exclusive Story Opportunity - AI Productivity in the workplace
+
+Dear Will,
+
+I trust this email finds you well. My name is John Jackson, and I'm reaching out on behalf of TechNews, a leading platform in the tech industry.
+
+I've been following the journey of Ask Aiden and I am interested in delving deeper into the role of AI in enhancing workplace productivity. I believe thatAsk Aiden has a compelling story to share in this regard.
+
+Our proposed story, "AI Productivity in the Workplace," aims to explore how companies (including Ask Aiden) are revolutionizing traditional workflows through innovative AI solutions. 
+
+Could we schedule a brief call to discuss this further? I am confident that this story will resonate with our audience and provide meaningful exposure for your company.
+
+We look forward to the possibility of collaborating!
+
+Best,
+John Jackson
+AI Editor, TechNews
+
+////
+
+EMAIL 17 - category: IT
+Persona: to Will, CEO of startup; email from Mia Sullivan, IT Support Technician
+
+Sender name: Mia Sullivan
+Sender email: mias@askaiden.com
+Date: 11/1/2023
+Content: 
+
+Hello everyone,
+In order to ensure data integrity, we are now introducing the Data Backup and Recovery Policy, effective today, November 1, 2023. The full policy and an in-depth FAQ can be found in our People Portal.
+Here are some key changes we want to bring to your attention:
+Device Usage:
+All employees should utilize their company-provided devices for work-related tasks. If you possess a dual personal/business device, expect a separate email with instructions on acquiring your new work-only device.
+Emails and Document Management: 
+Please refrain from deleting any emails or documents. Emails may be archived, and outdated documents should be labeled with [DEPRECATED] or placed in a folder with the same label.
+Storage Platforms:
+Our primary storage options are now Google Cloud Storage and Google Drive. By November 30, 2023, ensure the migration of any current work product stored outside of these platforms to either Google Cloud Storage or Google Drive.
+
+Please reach out to the IT team at IT@askaiden.com if you have any questions or concerns that are not addressed in the FAQ.
+
+Thank you for your cooperation!
+////
+
+EMAIL 18 - category: CUSTOMER SERVICE
+Persona: to Will, CEO of startup; email from Slack
+
+Sender name: Slack
+Sender email: reply-7684130-131_HTML-495350062-10959666-110@email.slackhq.com 
+Date: 10/31/2023
+Content: 
+
+Stay updated from anywhere with the Slack mobile app
+
+Adding Slack to your phone is the best way to stay in the loop and reach your team quickly while on the go. With instant syncing across devices, you won’t have to be at your desk to get answers, make decisions or complete tasks.
+
+Get the Slack app and you’ll never miss an important message, wherever work takes you.
+
+GET THE MOBILE APP
+
+////
+
+EMAIL 19 - category: RECRUITING
+Persona: to Will, CEO of startup; email from Kelly Martin at Adobe 
+
+Sender name: Kelly Martin
+Sender email: kelly.martin@adobe.com
+Date: 11/13/2023
+Content: 
+
+Hi Will -
+Hope you’ve been well! I wanted to introduce you to a former colleague of mine, Katarina Mori, who I worked closely with at Adobe. Katarina is a talented UX designer with a passion for AI, and she's actively seeking new opportunities. 
+I’d love for you two to connect at your earliest convenience to see if there might be an opportunity for you two to work together. 
+Best,
+Kelly
+
+////
+
+EMAIL 20 - category: RECRUITING
+Persona: to Will, CEO of startup; email from Xochi Cordova, Chief of Staff
+
+Sender name: Xochi Cordova
+Sender email: xochi@askaiden.com
+Date: 11/6/2023
+Content: 
+
+Hi Will,
+As we discussed in our 1:1 earlier this morning, I’ve attached the next batch of Executive Assistant resumes for your review. Out of the five attached, I suggest prioritizing scheduling follow-ups with the following three candidates:
+Olivia Bennett
+Ethan Mitchell
+Sophia Rodriguez
+
+If you agree with the above assessment, I'll work with HR to get those on the calendar by the end of next week!
+
+Thanks!
+-xochi
+
+Xochitl Cordova
+Chief of Staff, Ask Aiden
+
+////
+
+
+
