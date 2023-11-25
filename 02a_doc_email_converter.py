@@ -1,67 +1,92 @@
+import click
 import re
 import json
 
-def parse_email_content(input_text):
-    """
-    Parses the input text to extract email information and returns a list of email data.
-    """
-    # Split the input text into separate emails using the '////' delimiter
-    email_blocks = input_text.split('////\n\n')
+# Function to determine if an email is internal or external
+def is_internal_email(email_address):
+    return email_address.endswith('@askaiden.com')
 
-    emails = []
+# Function to parse each email and extract relevant information
+def parse_email(email_str):
+    category_match = re.search(r'Category: (.+)', email_str)
+    label_match = re.search(r'Label: "(.+)"', email_str)
+    sender_email_match = re.search(r'Sender email: (.+)', email_str)
+    content_start_index = email_str.find('Content:') + len('Content:')
 
-    for block in email_blocks:
-        if block.strip():
-            # Extracting the details using regular expressions
-            category_match = re.search(r'EMAIL \d+ - category: (.+)', block)
-            persona_match = re.search(r'Persona: (.+)', block)
-            sender_name_match = re.search(r'Sender name: (.+)', block)
-            sender_email_match = re.search(r'Sender email: (.+)', block)
-            date_match = re.search(r'Date: (.+)', block)
-            content_match = re.search(r'Content: \n\n([\s\S]+)', block)
+    category = category_match.group(1).strip() if category_match else None
+    label = label_match.group(1).strip() if label_match else None
+    sender_email = sender_email_match.group(1).strip() if sender_email_match else None
+    content = email_str[content_start_index:].strip()
 
-            # Extracted details
-            email_data = {
-                'category': category_match.group(1).strip() if category_match else None,
-                'persona': persona_match.group(1).strip() if persona_match else None,
-                'sender_name': sender_name_match.group(1).strip() if sender_name_match else None,
-                'sender_email': sender_email_match.group(1).strip() if sender_email_match else None,
-                'date': date_match.group(1).strip() if date_match else None,
-                'content': content_match.group(1).strip() if content_match else None
-            }
+    internal = is_internal_email(sender_email) if sender_email else False
 
-            emails.append(email_data)
+    return {
+        "category": category,
+        "label": label,
+        "content": content,
+        "internal": internal
+    }
 
-    return emails
+# Function to convert parsed email data to the specified JSONL format
+def convert_to_jsonl_format(email_data):
+    jsonl_entries = []
 
-def create_jsonl_file(emails, output_file_path):
-    """
-    Converts a list of emails to JSON Lines format and writes to a file.
-    """
-    with open(output_file_path, 'w') as file:
-        for email in emails:
-            json_line = json.dumps(email)
-            file.write(json_line + '\n')
+    for email in email_data:
+        json_entry = {
+            "messages": [
+                {
+                    "role": "user",
+                    "content": email["content"]
+                },
+                {
+                    "role": "assistant",
+                    "function_call": {
+                        "name": "ClassifyEmail",
+                        "arguments": {
+                            "category": email["category"],
+                            "label": email["label"],
+                            "internal": email["internal"]
+                        }
+                    }
+                }
+            ],
+            "functions": [
+                {
+                    "name": "ClassifyEmail",
+                    "description": "Classify the email into a category and label, and determine if it's internal or external.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "category": {"type": "string"},
+                            "label": {"type": "string"},
+                            "internal": {"type": "boolean"}
+                        },
+                        "required": ["category", "label", "internal"]
+                    }
+                }
+            ]
+        }
+        jsonl_entries.append(json_entry)
+    
+    return jsonl_entries
 
-def read_email_content_from_file(file_path):
-    """
-    Reads email content from a specified text file and returns it as a string.
-    """
+@click.command()
+@click.argument('file_path', type=click.Path(exists=True))
+@click.option('--output', default='output_file.jsonl', help='Output JSONL file path.')
+def main(file_path, output):
     with open(file_path, 'r') as file:
-        return file.read()
+        email_text = file.read()
 
-email_file_path = r'data/emails_xochi.txt'
+    emails = email_text.split('////')[1:]  # Splitting the text into individual emails
+    parsed_emails = [parse_email(email) for email in emails]
+    converted_jsonl = convert_to_jsonl_format(parsed_emails)
 
-# Read the email content from the file
-input_text = read_email_content_from_file(email_file_path)
+    # Save the JSONL data to a file
+    with open(output, 'w') as output_file:
+        for entry in converted_jsonl:
+            output_file.write(json.dumps(entry) + '\n')
 
-# Parse the email content
-parsed_emails = parse_email_content(input_text)
+    click.echo(f"Processed data saved to {output}")
 
-# Specify the output path for the JSONL file
-output_jsonl_file_path = 'data/emails.jsonl' 
-
-# Create the JSONL file with the parsed email content
-create_jsonl_file(parsed_emails, output_jsonl_file_path)
-
-print(f"JSONL file created at {output_jsonl_file_path}")
+if __name__ == '__main__':
+    main()
