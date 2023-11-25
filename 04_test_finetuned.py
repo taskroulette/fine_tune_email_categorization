@@ -24,7 +24,7 @@ config = load_configuration()
 def gpt_function_call(email_content):
     try:
         response = openai.ChatCompletion.create(
-            model="ft:gpt-3.5-turbo-0613:ask-aiden-inc::8OeXrJqc",  # Your fine-tuned model name
+            model="ft:gpt-3.5-turbo-0613:ask-aiden-inc::8OeXrJqc",  
             messages=[{"role": "user", "content": email_content}],
             max_tokens=50,  # Adjust as necessary
         )
@@ -38,10 +38,9 @@ def gpt_function_call(email_content):
         return str(e)
 
 
-# Test case
+
 # Adjusted test case to align with the fine-tuning data
 def test_case():
-    # A test email that closely matches the format used in training
     test_email_content = """
     Email Content: 'Hi Team, I wanted to check on the status of invoice INV-00921. It was supposed to be cleared last week, but I haven't received any confirmation yet. Could you please look into it and provide an update? Best, Jordan'
     Task: Classify the above email in terms of category, label, and whether it is internal or external.
