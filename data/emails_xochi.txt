@@ -1,10 +1,10 @@
-
-
 ////
 
 
-EMAIL 1 - category: BILLING
+EMAIL 1 
+Category: BILLING
 Persona: to Will, CEO of startup; from Xochi Cordova (chief of staff)
+Label: "Other-Action-Required"
 
 Sender name: Xochi Cordova
 Sender email: xochi@askaiden.com
@@ -19,8 +19,10 @@ Xochi
 
 ////
 
-EMAIL 2 - category: TRAINING
-Persona: to Will, CEO of startup; email from Rebecca Alvarado, HR 
+EMAIL 2 
+Category: TRAINING
+Persona: to Will, CEO of startup; email from Rebecca Alvarado, HR
+Label: "Read-Only" 
 
 Sender name: Rebecca Alvarado
 Sender email: becca@askaiden.com
@@ -43,8 +45,10 @@ Ask Aiden HR
 
 ////
 
-EMAIL 3 - category: MARKETING
+EMAIL 3 
+Category: MARKETING
 Persona: to Will, CEO of startup; email from LinkedIn Promotions Team
+Label: "Auto-Archive"
 
 Sender name: Franklin Jonas
 Sender email: fjonas@linkedin.com
@@ -67,8 +71,10 @@ Franklin from LinkedIn Premium
 
 ////
 
-EMAIL 4 - category: LEGAL
+EMAIL 4 
+Category: LEGAL
 Persona: to Will, CEO of startup; email from Vanessa Serna, Legal Director
+Label: "Other-Action-Required"
 
 Sender name: Vanessa Serna
 Sender email: vserna@askaiden.com
@@ -94,8 +100,10 @@ Director of Legal, Ask Aiden
 ////
 
 
-EMAIL 5 - category: FINANCE
+EMAIL 5 
+Category: FINANCE
 Persona: to Will, CEO of startup; email from Nick Jones, Head of Finance
+Label: "Other-Action-Required"
 
 Sender name: Nick Jones
 Sender email: NJones@askaiden.com
@@ -115,8 +123,10 @@ Head of Finance, Ask Aiden
 
 ////
 
-EMAIL 6 - category: OPERATIONS
+EMAIL 6
+Category: OPERATIONS
 Persona: to Will, CEO of startup; email from Xochi Cordova, Chief of Staff
+Label: "Read-Only"
 
 Sender name: Xochi Cordova
 Sender email: xochi@askaiden.com
@@ -141,8 +151,10 @@ Chief of Staff
 ////
 
 
-EMAIL 7 - category: CUSTOMER SERVICE
+EMAIL 7 
+Category: CUSTOMER SERVICE
 Persona: to Will, CEO of startup; email from Amazon.com
+Label: "Read-Only"
 
 Sender name: Amazon.com 
 Sender email: donotreply@amazon.com
@@ -172,8 +184,10 @@ Rate your experience with seller
 
 ////
 
-EMAIL 8 - category: BUSINESS DEVELOPMENT
+EMAIL 8
+Category: BUSINESS DEVELOPMENT
 Persona: to Will, CEO of startup; email from Ryan Sullivan, Eng Director at Meta
+Label: "Other-Action-Required"
 
 Sender name: Ryan Sullivan
 Sender email: rsullivan@meta.com
@@ -192,8 +206,10 @@ Productivity Tooling @ Meta
 
 ////
 
-EMAIL 9 - category: ANALYTICS
+EMAIL 9
+Category: ANALYTICS
 Persona: to Will, CEO of startup; email from Emma Thompson, Director of Analytics
+Label: "Other-Action-Required"
 
 Sender name: Emma Thompson
 Sender email: emma@askaiden.com
@@ -209,8 +225,10 @@ Director of Analytics, Ask Aiden
 
 ////
 
-EMAIL 10 - category: HR
-Persona: to Will, CEO of startup; email from Rebecca Alvarado, HR 
+EMAIL 10
+Category: HR
+Persona: to Will, CEO of startup; email from Rebecca Alvarado, HR
+Label: "Other-Action-Required" 
 
 Sender name: Rebecca Alvarado
 Sender email: becca@askaiden.com
@@ -231,8 +249,10 @@ Ask Aiden, HR
 
 ////
 
-EMAIL 11 - category: IT
+EMAIL 11
+Category: IT
 Persona: to Will, CEO of startup; email from Mia Sullivan, IT Support Technician
+Label: "Read-Only"
 
 Sender name: Mia Sullivan
 Sender email: mias@askaiden.com
@@ -253,8 +273,10 @@ IT Support Technician, Ask Aiden
 
 ////
 
-EMAIL 12 - category: Engineering or Product (Launch)
+EMAIL 12
+Category: Engineering or Product (Launch)
 Persona: to Will, CEO of startup; email from Avery Rodriguez, Engineering Director
+Label: "Read-Only"
 
 Sender name: Avery Rodriguez
 Sender email: arod@askaiden.com
@@ -278,8 +300,10 @@ Engineering Director, UX Design - Ask Aiden
 
 ////
 
-EMAIL 13 - category: TRAINING
+EMAIL 13
+Category: TRAINING
 Persona: to Will, CEO of startup; email from Vanessa Serna, Legal Director
+Label: "Read-Only"
 
 Sender name: Vanessa Serna
 Sender email: vserna@askaiden.com
@@ -307,8 +331,10 @@ Legal Director, Ask Aiden
 
 ////
 
-EMAIL 14 - category: FINANCE
+EMAIL 14
+Category: FINANCE
 Persona: to Will, CEO of startup; email from Charles Schwab
+Label: "Auto-Archive"
 
 Sender name: Schwab Alerts
 Sender email: donotreply-comm@schwab.com
@@ -326,8 +352,10 @@ If you access your account(s) through www.schwaballiance.com, please contact you
 
 ////
 
-EMAIL 15 - category: BILLING
+EMAIL 15
+Category: BILLING
 Persona: to Will, CEO of startup; email from Rippling (Vendor)
+Label: "Other-Action-Required"
 
 Sender name: Rippling Billing
 Sender email: no-reply@rippling.com
@@ -347,8 +375,10 @@ The Rippling Team
 
 ////
 
-EMAIL 16 - category: PUBLIC RELATIONS
+EMAIL 16
+Category: PUBLIC RELATIONS
 Persona: to Will, CEO of startup; John Jackson @ TechCrunch
+Label: "Other-Action-Required"
 
 Sender name: John Jackson
 Sender email: jjackson@techcrunch.com 
@@ -375,8 +405,10 @@ AI Editor, TechNews
 
 ////
 
-EMAIL 17 - category: IT
+EMAIL 17
+Category: IT
 Persona: to Will, CEO of startup; email from Mia Sullivan, IT Support Technician
+Label: "Read-Only"
 
 Sender name: Mia Sullivan
 Sender email: mias@askaiden.com
@@ -398,8 +430,10 @@ Please reach out to the IT team at IT@askaiden.com if you have any questions or 
 Thank you for your cooperation!
 ////
 
-EMAIL 18 - category: CUSTOMER SERVICE
+EMAIL 18
+Category: CUSTOMER SERVICE
 Persona: to Will, CEO of startup; email from Slack
+Label: "Auto-Archive"
 
 Sender name: Slack
 Sender email: reply-7684130-131_HTML-495350062-10959666-110@email.slackhq.com 
@@ -416,8 +450,10 @@ GET THE MOBILE APP
 
 ////
 
-EMAIL 19 - category: RECRUITING
+EMAIL 19
+Category: RECRUITING
 Persona: to Will, CEO of startup; email from Kelly Martin at Adobe 
+Label: "Other-Action-Required"
 
 Sender name: Kelly Martin
 Sender email: kelly.martin@adobe.com
@@ -432,8 +468,10 @@ Kelly
 
 ////
 
-EMAIL 20 - category: RECRUITING
+EMAIL 20
+Category: RECRUITING
 Persona: to Will, CEO of startup; email from Xochi Cordova, Chief of Staff
+Label: "Other-Action-Required"
 
 Sender name: Xochi Cordova
 Sender email: xochi@askaiden.com
