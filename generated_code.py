@@ -3,6 +3,7 @@
 from pydantic import BaseModel, EmailStr
 from typing import List
 
+
 class Email(BaseModel):
     """Data model for an email."""
 
@@ -20,10 +21,13 @@ class EmailCategory(BaseModel):
     name: str
     emails: List[Email]
 
+
 class EmailContent(BaseModel):
     """Data model for an email content."""
+
     subject: str
     body: str
+
 
 # has to be a pure python list only with strings as elements
 email_categories = [
