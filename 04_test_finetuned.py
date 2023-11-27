@@ -26,9 +26,9 @@ def gpt_function_call(email_content):
         response = openai.ChatCompletion.create(
             model="ft:gpt-3.5-turbo-0613:ask-aiden-inc::8OeXrJqc",  
             messages=[{"role": "user", "content": email_content}],
-            max_tokens=50,  # Adjust as necessary
+            max_tokens=50,  
         )
-        print("Raw Response:", response)  # Print the raw response
+        print("Raw Response:", response)  
         if response.choices:
             return response.choices[0].message["content"]
         else:
